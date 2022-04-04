@@ -1,0 +1,204 @@
+body{
+	background: #eeeeee;
+	margin: 0 auto;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #494949;
+}
+
+button{
+	min-width: 120px;
+	height: 100%;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 0.5em;
+	border-radius: 2px;
+	border: solid 1px #003366;
+	background: #006699;
+	cursor: pointer;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 200;
+}
+
+button:hover{
+	background: #003366;
+	border: solid 1px #eeeeee;
+	color: white;
+	transition: all 0.5s linear;
+	-web-transition: all 0.5s linear;
+}
+
+#cajaTexto{
+	text-align: center;
+	background: #ddd;
+	border-bottom: solid 6px #8bbd9e;  
+	padding-bottom: 10px;
+}
+
+.coincidencia{
+	color:red;
+	display: inline;
+	font-weight: bold;
+}
+
+.coincidenciaprox{
+	color:blue;
+	display: inline;
+	font-weight: bold;
+}
+
+#cajaTexto textarea{
+	padding: 5px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	width: 97%;
+	margin-top: 10px;
+	border-radius: 3px;
+	border:solid 1px #bbb;
+	min-height: 200px;
+	color: #111;
+	resize:both;
+	border-bottom: solid 3px blue;
+}
+
+#cajaTexto #procesado{
+	display: none;
+	padding: 3px;
+	text-align: left;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	width: 97%;
+	margin-top: 10px;
+	border-radius: 3px;
+	border:solid 1px #bbb;
+	height: 206px;
+	background: white;
+	color: #111;
+	border-bottom: solid 3px red;
+	overflow: scroll;
+}
+
+h2{
+	font-weight: 300;
+	color:white;
+}
+
+nav{
+	background: #387ec5;
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+input[type="text"]{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-weight: 200;
+	width: 10em;
+	padding-left: 3px;
+	padding-right: 3px;
+	margin:0;
+	font-size: 18px;
+	color: #555;
+	display: inline-block;
+	margin-left: 0.5em;
+	border-radius: 3px;
+	border: solid 1px #ddd;
+}
+
+.titulob{
+	color: #fff;
+	font-size: 28px;
+	display: inline-block;
+	margin-left: 1em;
+}
+
+#cabeza{
+	
+	font-family:verdana,arial; /*tipo de letra*/  
+    font-size:21pt;             /*tamaño de la letra*/  
+    text-align:center;        /*Alinacion del texto*/  
+    color:#eeeeee;             /*color del texto*/  
+    background-color:#03406A;  /*Color de fondo */  
+    width: auto;              /*Ancho de la capa */  
+    height: 45px;             /*Altura de la capa */ 
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+#cabeza2{
+	
+	font-family:verdana,arial; /*tipo de letra*/  
+    font-size:13pt;             /*tamaño de la letra*/  
+    text-align:center;        /*Alinacion del texto*/  
+    color:#eeeeee;             /*color del texto*/  
+    background-color:#03406A;  /*Color de fondo */  
+    width: auto;              /*Ancho de la capa */  
+    height:30px;             /*Altura de la capa */ 
+    vertical-align: top;
+    padding-top: 0px;
+}
+
+#cabeza3{
+	color:#fff;
+	width: 100%;
+	display: inline-block;
+	vertical-align: top; 
+	margin-left: 3px;
+	margin-right: 3px;
+	border-radius: 0 0 4px 4px; 
+	min-height: 150px;
+	background: #1D466F;
+}
+
+
+#detalles{
+	text-align: center;
+}
+
+#detalles article{
+	width: 31%;
+	display: inline-block;
+	vertical-align: top; 
+	margin-left: 3px;
+	margin-right: 3px;
+	border-radius: 0 0 4px 4px; 
+	min-height: 150px;
+	background: #086FA1;
+}
+
+#detalles article .titulo{
+	font-weight: 400;
+	color: #eee;
+	margin-right: 4px;
+	font-size: 20px;
+}
+#detalles article .detalle{
+	font-weight: normal;
+	color: #eee;
+
+	font-size: 20px;
+}
+
+#detalles article .detalle,
+#detalles article .titulo{
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+
+footer{
+	border-radius: 0 0 4px 4px; 
+	background-color:#03406A;  /*Color de fondo */  
+	margin-top:10px;
+	font-family:verdana,arial; /*tipo de letra*/  
+    font-size:10pt;             /*tamaño de la letra*/  
+    text-align:center;        /*Alinacion del texto*/  
+    color:#eeeeee;             /*color del texto*/      
+    width: auto;              /*Ancho de la capa */  
+    height: 98px;             /*Altura de la capa */ 
+    vertical-align: middle;      
+    padding: 15px;
+}
+
